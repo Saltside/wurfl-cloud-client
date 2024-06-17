@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      "wurfl-cloud-client@3.2.0",
+      "/home/bhavya/Documents/saltside/web"
+    ]
+  ],
+  "_from": "wurfl-cloud-client@3.2.0",
+  "_id": "wurfl-cloud-client@3.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-hxRoWlXA3/NPhOkL11Kn/GStkjqxAy603wYTsss+3h2q+DE5uCKb9IcEgGuLtLyf3k6bJoWBWdkIcWKfJ4TCrA==",
+  "_location": "/wurfl-cloud-client",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "wurfl-cloud-client@3.2.0",
+    "name": "wurfl-cloud-client",
+    "escapedName": "wurfl-cloud-client",
+    "rawSpec": "3.2.0",
+    "saveSpec": null,
+    "fetchSpec": "3.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wurfl-cloud-client/-/wurfl-cloud-client-3.2.0.tgz",
+  "_spec": "3.2.0",
+  "_where": "/home/bhavya/Documents/saltside/web",
+  "author": {
+    "name": "Valentin Agachi",
+    "url": "http://agachi.name/"
+  },
+  "bugs": {
+    "url": "https://github.com/avaly/wurfl-cloud-client/issues"
+  },
+  "dependencies": {
+    "request": "^2.84.0",
+    "underscore": "^1.8.3"
+  },
+  "description": "Detect devices using WURFL Cloud",
+  "devDependencies": {
+    "coveralls": "^2.12.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-istanbul": "^0.3.0",
+    "nock": "^9.0.9",
+    "yuidoc-theme-blue": "^0.1.9",
+    "yuidocjs": "^0.10.2"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "lib"
+  ],
+  "homepage": "https://github.com/avaly/wurfl-cloud-client",
+  "keywords": [
+    "wurfl",
+    "wurfl-cloud",
+    "cloud",
+    "device",
+    "detect",
+    "detection",
+    "capabilities",
+    "cache",
+    "express",
+    "connect",
+    "middleware",
+    "hapi",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wurfl-cloud-client",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/avaly/wurfl-cloud-client.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "3.2.0"
+}
